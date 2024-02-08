@@ -1,0 +1,209 @@
+
+ul{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content:space-between;
+    height: 50px;
+    list-style-type: none;
+    box-shadow: 2px 2px 4px 5px rgb(160, 158, 158);
+ 
+   
+    backface-visibility:visible;
+
+}
+li{
+  margin: auto;
+  color: black;
+  
+  
+}
+li a{
+    text-decoration: none;
+    margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: larger;
+    font-weight: bolder;
+    font-style:normal;
+    color:black;
+    
+
+}
+
+img{
+    height: 400px;
+    width: 280px;
+    /* box-shadow: 2px 2px 4px 5px whitesmoke; */
+    float: left;
+}
+.greet{
+    font-size: 500%;
+    font-family: cursive;
+    font-weight: bolder;
+    height:100px;
+    width:200px;
+    font-family: serif;
+    /* padding: 10px 10px 10px 10px; */
+    margin-left: 40px;
+   
+    
+}
+.name{
+    color: rgb(255, 243, 243);
+}
+h1{
+    margin-left: 10px;
+}
+/* .greet:hover{
+    font-size: 500%;
+    font-family: cursive;
+    font-weight: bolder;
+    height:300px;
+    width:400px;
+    margin-top: 100px;
+} */
+   
+/* body{
+    background-color: rgb(203, 203, 203);
+} */
+#welcome{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+.info{
+    font-weight: bolder;
+    font-size: x-large;
+   border-radius: 40px 40px;
+    margin-left: 550px;
+    padding-left: 30px;
+    height: 120px;
+    width: 250px;
+    box-shadow: 3px 3px 21px 2px rgb(80, 78, 78);
+}
+body{
+    background-image:url('download.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}
+/* .about{
+    height: 160px;
+    width: 920px;
+    box-shadow: 3px 3px 21px 2px rgb(80, 78, 78);
+    font-style:normal;
+    margin-left: 300px;
+    margin-top: -113px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align:left;
+} */
+.skills{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.out{
+    height: 15px;
+    width:300px;
+    background-color:white;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+.in{
+    height: 6px;
+    width: 250px;
+    background-color:black;
+    padding-top: 10px;
+
+}
+.subject{
+    font-size:x-large;
+    color:rgb(0, 0, 0);
+    margin-top: 10px;
+    
+}
+.bigContainer{
+    display: flex;
+    flex-direction: row;
+}
+.rightContainer{
+    margin-left: 60px;
+}
+.leftContainer{
+    margin-left: 40px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+   
+}
+.left{
+    margin-left: 40px;
+    box-shadow: 3px 4px 10px 3px white;
+    border:1px solid black;
+    
+    
+}
+.right{
+    margin-left: 80px;
+    box-shadow: 3px 4px 10px 3px white;
+    border:1px solid black;
+}
+.img1{
+    height: 300px;
+    width: 250px;
+}
+.tecinfo a{
+    text-decoration: none;
+}
+#btn1{
+    margin-left: 140px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+}
+#btn2{
+    margin-left: 280px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+}
+.btnlayout{
+    display: flex;
+    flex-direction: row;
+}
+.ecominfo a{
+    text-decoration: none;
+    color:black
+}
+.container3{
+    height: 400px;
+    width: 400px;
+    margin-left: 600px;
+    border:1px solid #000000;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+form input{
+    margin-top: 10px;
+}
+#Contact{
+    font-size: larger;
+    color:black;
+}
+.mb-3{
+    margin-top: 20px;
+}
+#btn4{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+}
