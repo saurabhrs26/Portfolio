@@ -80,8 +80,9 @@ h1{
     margin-left: 550px;
     padding-left: 30px;
     height: 120px;
-    width: 250px;
+    width: 270px;
     box-shadow: 3px 3px 21px 2px rgb(80, 78, 78);
+    background-color: rgb(229, 223, 223);
 }
 body{
     background-image:url('download.jpeg');
@@ -129,6 +130,7 @@ body{
 .bigContainer{
     display: flex;
     flex-direction: row;
+    margin-left: 260px;
 }
 .rightContainer{
     margin-left: 60px;
@@ -143,14 +145,14 @@ body{
 }
 .left{
     margin-left: 40px;
-    box-shadow: 3px 4px 10px 3px white;
+    box-shadow: 3px 4px 10px 3px rgb(155, 154, 154);
     border:1px solid black;
     
     
 }
 .right{
     margin-left: 80px;
-    box-shadow: 3px 4px 10px 3px white;
+    box-shadow: 3px 4px 10px 3px rgb(51, 50, 50);
     border:1px solid black;
 }
 .img1{
@@ -167,6 +169,25 @@ body{
     width: 50px;
     border-radius: 20% 20%;
 }
+#btn1:hover{
+    margin-left: 140px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+    background-color:rgb(182, 182, 237);
+    color:black;
+
+}
+#btn2:hover{
+    margin-left: 280px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+    background-color:rgb(182, 182, 237);
+    color:black;
+}
 #btn2{
     margin-left: 280px;
     margin-top:20px;
@@ -174,21 +195,25 @@ body{
     width: 50px;
     border-radius: 20% 20%;
 }
+
 .btnlayout{
     display: flex;
     flex-direction: row;
+    margin-left: 300px;
 }
 .ecominfo a{
     text-decoration: none;
     color:black
 }
 .container3{
-    height: 400px;
+    height: 300px;
     width: 400px;
-    margin-left: 600px;
+    margin-left: 500px;
     border:1px solid #000000;
     border-radius: 10px 10px;
-    text-align: center;
+    text-align:left;
+    padding-left: 20px;
+    background-color: grey;
 }
 form input{
     margin-top: 10px;
@@ -201,9 +226,13 @@ form input{
     margin-top: 20px;
 }
 #btn4{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 10px;
 }
 p{
     text-align: center;
+}
+
+.container1{
+    margin-left:300px;
 }
