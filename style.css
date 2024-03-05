@@ -33,10 +33,8 @@ li a{
 }
 
 img{
-    height: 400px;
-    width: 280px;
-    /* box-shadow: 2px 2px 4px 5px whitesmoke; */
-    float: left;
+    height: 200px;
+    width: 270px;
 }
 .greet{
     font-size: 500%;
@@ -138,26 +136,23 @@ body{
 .leftContainer{
     margin-left: 40px;
 }
-.container1{
+.row1{
     display: flex;
     flex-direction: row;
-   
-}
-.left{
-    margin-left: 40px;
-    box-shadow: 3px 4px 10px 3px rgb(155, 154, 154);
-    border:1px solid black;
-    
+    justify-content: space-around;
     
 }
-.right{
-    margin-left: 80px;
-    box-shadow: 3px 4px 10px 3px rgb(51, 50, 50);
-    border:1px solid black;
+#img1,#img2,#img3,#img4{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+button{
+    margin-left: 120px;
 }
 .img1{
     height: 300px;
     width: 250px;
+    margin-left: 20px;
 }
 .tecinfo a{
     text-decoration: none;
@@ -194,6 +189,22 @@ body{
     height: 30px;
     width: 50px;
     border-radius: 20% 20%;
+}
+#btn3{
+    margin-left: 280px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+}
+#btn3:hover{
+    margin-left: 280px;
+    margin-top:20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20% 20%;
+    background-color:rgb(182, 182, 237);
+    color:black;
 }
 
 .btnlayout{
@@ -235,4 +246,6 @@ p{
 
 .container1{
     margin-left:300px;
+    padding: 10px;
+
 }
