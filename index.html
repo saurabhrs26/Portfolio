@@ -1,151 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li class="navbar"><a href="Home">Home</a></li>
-        <li class="navbar"><a href="About">About</a></li>
-        <li class="navbar"><a href="Project">Project</a></li>
-        <li class="navbar"><a href="Contact">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- <img src="photo.png" alt="photo"> -->
-    <span class="greet"
-      >Hello ,My name is <span class="name">Saurabh</span>
-    </span>
-    <div class="info"><h1>I am a Web Developer</h1></div>
-    <br />
-    <br />
-    <h1>My <span class="name">Skills</span></h1>
-    <div class="skills">
-     
-    </div>
-    <div class="bigContainer">
-      <div class="leftContainer">
-        <span class="subject">HTML</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-        <span class="subject"> CSS</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-        <span class="subject"> JavaScript</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-        <span class="subject"> Bootstrap</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-      </div>
 
-      <div class="rightContainer">
-        <span class="subject"> React</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-        <span class="subject"> Java</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-        <span class="subject"> Bootstrap</span>
-        <div class="out">
-          <div class="in"></div>
-        </div>
-      </div>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
 
-    <br>
-    <div class="project">
-    <h1>My <span class="name">Project</span></h1>
-   <div class="bigContainer">
-    <div class="row1">
-      <div class="ebook">
-        <img src="Ebookshelf.png" alt="ebook" id="img1">
-    <br>
-    <button ><a href="https://github.com/saurabhrs26/Ebookshelf"></a>view</button>
-      </div>
-      <div class="tec">
-        <img src="TEC.png" alt="Tec" id="img2">
-        <br>
-        <button ><a href="https://github.com/saurabhrs26/PredictionOfTECVariation"></a>view</button>
-      </div>
-      <div class="ecom">
-        <img src="Shopping.png" alt="Ecommerce" id="img3">
-        <br>
-        <button ><a href="supamart.netlify.app"></a>view</button>
-      </div>
-      <div class="calci">
-        <img src="calculator.png" alt="Calculator" id="img4">
-        <br>
-        <button ><a href="simplemathcalculatorr.netlify.app"></a>view</button>
-      </div>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="user">
+            <img src="images/Saurabh.png" alt="">
+            <h3>Saurabh Sakharkar</h3>
+            <p>Front end Developer</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">education</a>
+            <a href="#portfolio">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!-- theme toggler  -->
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3 class="my-element">Saurabh Sakharkar</h3>
+            <p>Hello there..</p>
+            <!-- <input type="button" class="btn" value="Download CV" onclick="DownloadFile('resumess.pdf')" /> -->
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/sakshi.rajurkar.77" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/saurabh.ramesh.sakharkar/" class="fab fa-instagram"></a>
+            <a href="www.linkedin.com/in/saurabh-sakharkar-851540212
+            " class="fab fa-linkedin"></a>
+            <a href="https://github.com/saurabhrs26" class="fab fa-github"></a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> Me </h1>
+
+        <div class="row">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>5+</h3>
+                    <p>projects</p>
+                </div>
+
+                <div class="box">
+                    <h3>3+</h3>
+                    <p>certificates</p>
+                </div>
+                <!-- <div class="box">
+                    <h3>2</h3>
+                    <p>intership</p>
+                </div> -->
+            </div>
+
+            <div class="content">
+                <h3>i am <span>Saurabh Ramesh Sakharkar</span></h3>
+                <p>Highly motivated and skilled Front-end Developer with a strong foundation in JavaScript, React, and Java. Seeking to leverage my technical skills and passion for developing responsive and user-friendly web applications in a challenging role where I can contribute to team success and grow professionally.</p>
+                <a href="#contact" class="btn">contact me</a>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="progress">
+                <h3> React <span>90%</span> </h3>
+                <div class="bar bar-1-1"><span></span></div>
+                <h3> Core Java <span>85%</span> </h3>
+                <div class="bar bar-1-2"><span></span></div>
+                
+
+                <h3> bootstrap <span>90%</span> </h3>
+                <div class="bar bar-1-3"><span></span></div>
+                <h3> MySql <span>85%</span> </h3>
+                <div class="bar bar-1-2"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3> HTML <span>95%</span> </h3>
+                <div class="bar bar-2-1"><span></span></div>
+                <h3> CSS <span>80%</span> </h3>
+                <div class="bar bar-2-2"><span></span></div>
+                <h3> javascript <span>65%</span> </h3>
+
+                <div class="bar bar-2-3"><span></span></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> my <span>education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3>sSC</h3>
+                <p>I have done my SSC from St Anne's High School Warora</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-pen"></i>
+                <h3>hSC</h3>
+                <p>I have completed my HSC from Yashwantrao Shinde junior College, Bhadravati</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>B.E (Information Technology)</h3>
+                <p>I have done my B.E in Information Technology from Tulsiramji Gaikwad Patil college of Engineering and Technology, Nagpur</p>
+            </div>
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-desktop"></i>
+                    <h3>PG-DAC</h3>
+                    <p>I have completed my PG-DAC from CDAC Infoway Technologies Pvt lmt, Pune</p>
+                </div>
     
-    </div>
-  </div>
-   </div>
-  </div>
-    <br>
-    <h1>Contact <span class="name">Me</span></h1> 
-    <div class="container3">
+               
+            
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my <span>projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/Ebookshelf.png" alt="">
+                <div class="content">
+                    <h3>project 01</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/TEC.png" alt="">
+                <div class="content">
+                    <h3>project 02</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/Shopping.png" alt="">
+                <div class="content">
+                    <h3>project 03</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/calculator.png" alt="">
+                <div class="content">
+                    <h3>project 04</h3>
+                </div>
+            </div>
+
+            <!-- <div class="box">
+                <img src="./images/fruite_skipper.png" alt="">
+                <div class="content">
+                    <h3>project 05</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/light.png" alt="">
+                <div class="content">
+                    <h3>project 06</h3>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <form action="mailto:saurabhsakharkar26@gmail.com">
+
+            <input type="text" placeholder="name" class="box" />
+            <input type="email" placeholder="email" class="box" />
+            <textarea name="" placeholder="Your message..." class="box" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" id="submit" value="send message" />
+
+        </form>
+
+    </section>
+
+    <!-- contact section ends -->
+    <div class="resume">
        
-      
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">PhoneNo</label>
-                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="phone">
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput3" class="form-label">Email</label>
-                <input type="email" class="form-control" id="formGroupExampleInput3" placeholder="email">
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput4" class="form-label">Email subject</label>
-                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="email subject" >
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput5" class="form-label">Enter Message:</label>
-                <br>
-                <textarea class="form-control" id="formGroupExampleInput4" placeholder="Enter Message" ></textarea>
-              </div>
-              <button type="button" class="btn btn-primary" id="btn4"><a herf="">Submit</a></button>
-        
+        <input type="button" class="btn" value="Download CV" onclick="DownloadFile('resumess.pdf')" />
     </div>
-    <footer>
-        <p >By Saurabh R Sakharkar &#169;</p>
-    </footer>
-  </body>
+
+
+    <div class="credits"> Created by <span>Saurabh Sakharkar</span> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="js/downloadcv.js"></script>
+
+</body>
+
 </html>
-<!-- <div class="container1">
-  <div class="left">
- <img src="TEC.png" class="img1">
- 
-  </div>
-  <div class="right">
-  <img src="Shopping.png" class="img1">
-  </div>
-  <div class="right2">
-    <img src="calculator.png" class="img1">
-    </div>
-</div>
-<div class="btnlayout">
-  <div class="tecinfo">
-      <button type="button" id="btn1"><a href="https://github.com/saurabhrs26/PredictionOfTECVariation">Visit</a></button>
-     </div>
-     <div class="ecominfo">
-      <button type="button" id="btn2"><a href="supamart.netlify.app">Visit</a></button>
-     </div>
-     <div class="calci">
-      <button type="button" id="btn3"><a href="simplemathcalculatorr.netlify.app">Visit</a></button>
-     </div>
-</div> -->
