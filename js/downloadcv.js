@@ -1,6 +1,6 @@
 function DownloadFile(fileName) {
-    //Set the File URL.
-    var url = "./Resume/resumess.pdf" + fileName;
+    //Set the File URL. If you're always downloading the same file, you don't need to append fileName.
+    var url = "./Resume/resumess.pdf";  // Use the actual path to your resume file
 
     //Create XMLHTTP Request.
     var req = new XMLHttpRequest();
@@ -15,8 +15,7 @@ function DownloadFile(fileName) {
         if (isIE) {
             window.navigator.msSaveBlob(blob, fileName);
         } else {
-            var url = window.URL || window.webkitURL;
-            link = url.createObjectURL(blob);
+            var link = window.URL.createObjectURL(blob);
             var a = document.createElement("a");
             a.setAttribute("download", fileName);
             a.setAttribute("href", link);
@@ -26,4 +25,4 @@ function DownloadFile(fileName) {
         }
     };
     req.send();
-};
+}
