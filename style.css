@@ -23,7 +23,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 65.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -68,7 +68,7 @@ section{
 
 .heading{
     text-align: center;
-    font-size: 5rem;
+    font-size: 8rem;
     color:var(--black);
     text-transform: uppercase;
     padding-bottom: 2rem;
@@ -203,7 +203,7 @@ section{
 
 .home .share a{
     height: 5rem;
-    width: 5rem;
+    width: 15rem;
     line-height: 5rem;
     box-shadow: var(--box-shadow);
     margin:.5rem;
@@ -222,6 +222,7 @@ section{
     align-items: center;
     flex-wrap: wrap-reverse;
     gap:2rem;
+    
 }
 
 .about .row .box-container{
