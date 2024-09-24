@@ -2,9 +2,9 @@
 
 :root{
     --green:#ad011b;
-    --black:#938d8d;
+    --black:#000000;
     --light-color:#171616;
-    --bg-color:#ae595902;
+    --bg-color:#ec2b2b02;
     --border:.1rem solid rgba(0,0,0,.2);
     --box-shadow:.4rem .4rem 1rem #ccc,
                 -.4rem -.4rem 1rem #fff;
